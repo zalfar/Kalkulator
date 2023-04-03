@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: right;
+    width: 400px;
+    padding-top: 100px;
+}
+
+.flex-button{
+    display: flex;
+    width: 400px;
+}
+
+.display{
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    background-color: #252525;
+    font-size: 35px;
+    border: none;
+    padding: 0 20px;
+    text-align: right;
+}
+
+button{
+    flex-basis: 25%;
+    font-size: 32px;
+    background-color: gray;
+    color: #fff;
+    outline: none;
+    height: 80px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.double{
+    flex-basis: 50%;
+}
+
+.operator, .equal{
+    background-color: orange;
+}
+
+button:hover{
+    background-color: darkgray;
+}
+
+.operator:hover, .equal:hover{
+    background-color: darkorange;
+}
+
